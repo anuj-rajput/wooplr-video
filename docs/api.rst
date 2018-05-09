@@ -10,15 +10,7 @@ API methods
 
     :query url: The video url
     :query boolean flatten: If ``True`` return a list of dictionaries in the ``videos`` field.
-        Otherwise a single dictionary will be returned in the ``info`` field.
-
-        .. versionchanged:: 0.2
-
-            The default value is ``False``.
-
-        .. deprecated:: 0.2
-
-            This parameter will be removed in a future version, you'll have to implemenent this functionality in your client.
+        Otherwise a single dictionary will be returned in the ``info`` field. The default value is ``False``.
 
     :query \*: A whitelist of extra parameters are passed directly to the ``YoutubeDL`` object.
         Currently it supports: |info-extra-params|.
@@ -62,10 +54,6 @@ API methods
     :status 302: On success
     :status 400: For invalid query parameters
     :status 500: If the extraction fails
-
-    .. versionadded:: 0.3
-
-        Added endpoint.
 
     |ex-request|
 
@@ -141,11 +129,6 @@ API methods
     :resheader Content-Type: ``application/json``
     :resheader Access-Control-Allow-Origin: ``*``
     :status 200: On success
-
-    .. versionadded:: 0.3
-
-        Added endpoint.
-
 
     |ex-request|
 
