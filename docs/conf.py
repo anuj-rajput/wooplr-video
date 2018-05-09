@@ -22,7 +22,7 @@ extensions = [
 master_doc = 'index'
 
 # General information about the project.
-project = 'youtube-dl-api-server'
+project = 'Wooplr Video Downloader'
 copyright = '2013-{now:%Y}, Jaime Marquínez Ferrándiz'.format(now=datetime.datetime.now())
 
 # The version info for the project you're documenting, acts as replacement for
