@@ -152,7 +152,7 @@ API methods
 Test server
 -----------
 
-You can try the API by doing requests to ``http://wooplr-video.herokuapp.com``.
+You can try the API by doing requests to ``https://wooplr-video.herokuapp.com``.
 
 
 
